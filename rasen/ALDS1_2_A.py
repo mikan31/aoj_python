@@ -1,7 +1,7 @@
 N = int(input())
 A = list(map(int, input().split()))
 
-def bubbleSort(A, N):
+def BubbleSort(A, N):
     count = 0
     flag = 1
     while flag == 1:
@@ -15,5 +15,5 @@ def bubbleSort(A, N):
     print(" ".join(A_str))
     return count
 
-count = bubbleSort(A, N)
+count = ubbleSort(A, N)
 print(count)
