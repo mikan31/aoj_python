@@ -7,8 +7,8 @@ for i in A:
         b = stack.pop()
         stack.append(a+b)
     elif i == '-':
-        a = stack.pop()
         b = stack.pop()
+        a = stack.pop()
         stack.append(a-b)
     elif i == '*':
         a = stack.pop()
