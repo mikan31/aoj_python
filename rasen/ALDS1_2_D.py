@@ -1,4 +1,3 @@
-
 def insertionSort(A, n, g):
     cnt = 0
     for i in range(g, n):
